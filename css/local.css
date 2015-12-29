@@ -1,4 +1,4 @@
-*, h1, h3, p{
+*, h1, h2, h3, h4, h5, h6, p{
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -19,13 +19,16 @@ p{
 }
 
 #index_page .jumbotron {
-    background-image: url("../img/jumbo.jpg");
+    background-color: black;
     background-size: cover;
-    height: 400px;
+    height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#index_page h1, h3 {
+    color: #00CC00;
+}
 
 #contact_page h1 {
     text-align: center;
