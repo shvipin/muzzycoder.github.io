@@ -1,8 +1,40 @@
-.jumbotron {
-    text-align: center;
-    background-color: transparent;
+* {
+    color: white;
 }
 
-.top-buffer{
-    margin-top:30px;
+body {
+    background-color: rgb(0,0,0);
+    padding-top: 70px;
 }
+
+.navbar-fixed-top {
+    background-color: rgb(0,0,0);
+}
+
+.index_main .jumbotron {
+    background-image: url("../img/jumbo.jpg");
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+p{
+    font-size: 22px;
+}
+
+#contact_page h1 {
+    text-align: center;
+}
+#contact_page img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+

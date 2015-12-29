@@ -4,9 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+    <meta name="description" content="Vipin Sharma pesonal website.">
+    <meta name="author" content="Vipin Sharma">
 
     <title>Vipin Sharma</title>
 
@@ -15,17 +14,14 @@
     <!-- local -->
     <link href="css/local.css" rel="stylesheet">
 
-    <!-- Custom styles for this template     
-    <link href="navbar-fixed-top.css" rel="stylesheet">
--->
-
   </head>
 
   <body>
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div id="topbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
+
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -33,10 +29,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!--<a class="navbar-brand" href="index.html">Welcome</a>-->
         </div>
+
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav navbar-left">
             <li class="active"><a href="index.html">Home</a></li> <!-- home page  -->
             <li><a href="projects.html">Projects</a></li> <!-- point to projects page which has summary of all my projects. -->
             <li><a href="resume.html">Resume</a></li> <!-- updated resume -->
@@ -44,28 +40,34 @@
             <li><a href="quotes.html">Quotes</a></li> <!-- some inspiration quoates -->
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="contact.html">Contact</a></li> <!-- contact information email, linked in, twitter, etc-->
+              <li><a href="contact.html" >Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
+
       </div>
     </div>
 
-    <div class="container">
 
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <br/>
-        <h1>Welcome</h1>
-        <p>I am MS student in Computer Science at North Carolina State University. </p>
-        <div class="row" >
-            <div class="col-lg-4 col-lg-offset-4">
-                <img src="img/profile.png" class="img-responsive" ></img>
-            </div>
+    <!-- Main component for a primary marketing message or call to action -->
+    <div class="index_main">
+    <div class="jumbotron">
+        <div class="container jumbotron_text">
+                <h1>Vipin Sharma</h1>
         </div>
-      </div>
+    </div>
 
-    </div> <!-- /container -->
+    <div class="main_content">
+        <div class="container">
+            <p>
+                I am a Master's student in <a href="http://www.csc.ncsu.edu/" target="_blank">Computer Science at North Carolina State University</a>. I got my undergraduate degree B.Tech. in CSE from <a href="http://www.msit.in/" target="_blank">Maharaja Surajmal Institute of Technology, New Delhi, India</a>. After my undergrad I worked for <a href="http://www.snapdeal.com" target="_blank">Snapdeal</a>, <a href="http://www.samsung.com/in/sri-b/index.html" target="_blank">Samsung</a>, and <a href="http://www.tcs.com/" target="_blank">TCS</a>.  My professional experience has been in Android application development in e-comerce, and multimedia domains. 
+            </p>
 
+            <p>
+            My research interest is in implementation of Distributed systems. I have implemented a distributed <a href="https://github.com/muzzycoder/ga_hadoop_yarn">Genetic Algorithm framework</a> on Hadoop Yarn. 
+        </div> 
+    </div>
+
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
